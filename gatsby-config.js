@@ -18,9 +18,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Praagya Joshi',
-    description: 'Full stack product enginner',
-    keywords: 'full stack, product enginner, portfolio, personal website',
-    url: 'https://www.praagya.com'
+    title: 'Paulo Giacomelli',
+    description: 'Software developer',
+    keywords: 'software developer, portfolio, personal website, front-end developer, full-stack developer',
+    url: ''
   }
 };

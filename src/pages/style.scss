@@ -24,20 +24,20 @@ $aside-width: 35%;
 
   // Setting the width and padding sizes
   @include media('>=large') {
-    $main-width: 65%;
-    $main-margin-right: 35%;
+    $main-width: 100%;
+    $main-margin-right: 0%;
     $vertical-padding: 50px;
-    $horizontal-padding: 8%;
+    $horizontal-padding: 20%;
 
     width: $main-width;
     margin-right: $main-margin-right; 
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
   @include media('>=medium', '<large') {
-    $main-width: 70%;
-    $main-margin-right: 30%;
+    $main-width: 100%;
+    $main-margin-right: 0;
     $vertical-padding: 50px;
-    $horizontal-padding: 8%;
+    $horizontal-padding: 10%;
 
     width: $main-width;
     margin-right: $main-margin-right; 
@@ -47,7 +47,7 @@ $aside-width: 35%;
     $main-width: 100%;
     $main-margin-right: 0;
     $vertical-padding: 50px;
-    $horizontal-padding: 48px;
+    $horizontal-padding: 10%;
 
     width: $main-width;
     margin-right: $main-margin-right; 
@@ -57,7 +57,7 @@ $aside-width: 35%;
     $main-width: 100%;
     $main-margin-right: 0;
     $vertical-padding: 50px;
-    $horizontal-padding: 24px;
+    $horizontal-padding: 10%;
 
     width: $main-width;
     margin-right: $main-margin-right; 
@@ -141,3 +141,12 @@ $aside-width: 35%;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
 }
+
+// .footer {
+//     $main-width: 100%;
+//     $horizontal-padding: 20%;
+//     $vertical-padding: 0;
+
+//     width: $main-width;
+//     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
+// }

@@ -10,6 +10,7 @@
     margin: 0;
     list-style: none;
     padding-bottom: 10px;
+    text-align: center;
 
     li.icon {
       display: inline-block;
@@ -41,5 +42,6 @@
     -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
     cursor: normal;
     color: $grey-color;
+    text-align: center;
   }
 }
