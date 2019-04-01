@@ -2,9 +2,8 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import fastLogo from '../../assets/images/experience/fast-logo-3.png'
+import sfdLogo from '../../assets/images/experience/sfd-logo.jpg'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,32 +11,22 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
-            title='Zomato'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
+            logo={fastLogo}
+            color='#0A67B1'
+            title='Fast Enterprises'
+            link='https://www.fastenterprises.com'
+            timeperiod='2018 - Present'
+            subtitle='Working as product support team member 
+            implemeting the Gentax software for the State of California.'
           />
           <ExperienceUnit
-            logo={fitsoLogo}
-            colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
-          />
-          <ExperienceUnit
-            logo={kayakoLogo}
-            colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            logo={sfdLogo}
+            color='#FFFFFF'
+            title='Spectral Fusion Designs'
+            link='http://hs.umt.edu/sfd/'
+            timeperiod='2016-2018'
+            subtitle='Built and maintained web applications for the University of Montana
+            and other clients.'
           />
         </div>
       </Section>

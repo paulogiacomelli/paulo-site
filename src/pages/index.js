@@ -10,12 +10,12 @@ const IndexPage = () => (
     <div className="index">
       <div className="main">
         <h5>
-          Hi, I'm <span className="bold">Paulo</span>
+          Hi, I'm <span className="bold">Paulo 👋</span>
         </h5>
 
         <h3 className="bold">
-          Software engineer with couple years of experience optmizing the tax
-          system for the state of california, building mvps, and always learning new things.
+          Software engineer optmizing the tax system for the state of california, 
+          building mvps, and always learning new things.
         </h3>
 
         <ExperienceSection />
@@ -25,7 +25,6 @@ const IndexPage = () => (
         </div>
       </div>
       
-
       {/*<div className="aside">
         <div className="top">
           <About />
