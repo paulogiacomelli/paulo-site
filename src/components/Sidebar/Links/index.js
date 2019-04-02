@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './style.scss'
 import 'font-awesome/css/font-awesome.min.css'
+import resume from '../../../assets/images/experience/PauloGiacomelliResume.pdf'
 
 class Links extends Component {
   render() {
@@ -14,7 +15,7 @@ class Links extends Component {
             </a>
           </li>
           <li className="icon">
-            <a href="https://www.twitter.com/praagyajoshi" target="_blank">
+            <a href={resume} target="_blank">
              <i className="fa fa-file-text"></i>
             </a>
           </li>
