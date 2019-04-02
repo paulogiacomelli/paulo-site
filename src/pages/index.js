@@ -14,7 +14,7 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-          Software engineer optmizing the tax system for the state of california, 
+          Software developer optmizing the tax system for the state of california, 
           building mvps, and always learning new things.
         </h3>
 
